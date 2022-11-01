@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	margin: 16px 0;
+}
+.h-content{
+	display: flex;
+	justify-content: space-between;
+}
+.h-item ul li{
+	list-style: none;
+	display: inline-block;
+}
+.h-item ul li a{
+	margin-right: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(85, 54, 54);
+    transition: 1s;
+}
+.h-item img{
+	margin-left: 35px;
+	padding-bottom: 16px;
+}
+.h-item ul li a:hover{
+	color: tomato;
+	transition: 1s;
+}
+.line{
+	height: 2px;
+    background-color: #e0e5e7;
+    color: #f1ecec;
+    
+}
+.banner{
+	width: 100%;
+	padding: 60px 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.b-row{
+	text-align: center;
+}
+.b-right h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #3F3B6C;
+}
+.b-right span{
+	display: block;
+	color: #3971c3;
+	margin-bottom: 16px;
+}
+.b-right p{
+	color: #605d5d;
+	margin-bottom: 16px;
+}
+.menubar{
+	width: 100%;
+	padding: 80px 0;
+}
+.menus{
+	display: flex;
+}
+.m-item{
+	flex-basis: 50%;
+	text-align: right;
+}
+.m-item h1{
+	font-size: 48px;
+	line-height: 1.7;
+	color: tomato;
+}
+.m-item p{
+	color: #605d5d;
+	font-size: 15px;
+}
+.b-item{
+	flex-basis: 50%;
+}
+.b-item h1{
+	margin-left: 26px;
+	font-size: 48px;
+	line-height: 1.7;
+	color: #3F3B6C;
+}
+.picture{
+	width: 100%;
+	padding: 20px 0;
+}
+.pic-item{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 25px;
+	padding-right: 25px;
+	margin-bottom: 25px;
+	
+
+}
+.folder1{
+	background-color: #fbebeb;
+	padding: 42px 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 25px 0px;
+
+}
+.folder1 h3{
+	color: #3F3B6C;
+}
+.folder1 p{
+	font-size: 15px;
+	color: #3F3B6C;
+}
+.folder2{
+	background-color: #eff4ff;
+	padding: 42px 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 25px 0px;
+}
+.folder2 h3{
+	color: #3F3B6C;
+}
+.folder2 p{
+	color: #3F3B6C;
+	font-size: 15px;
+}
+.folder3{
+	background-color: #fff3e9;
+	padding: 42px 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 25px 0px;
+
+}
+.folder3 h3{
+	color: #3F3B6C;
+}
+.folder3 p{
+	color: #3F3B6C;
+	font-size: 15px;
+}
+.footer{
+	width: 100%;
+	margin: auto;
+}
+.fo-item{
+	text-align: center;
+	background-color: #1896eb;
+	padding: 28px;
+}
+.fo-item i{
+	color: #C1EFFF;
+	font-size: 15px;
+}
+.gas{
+	color: white;
+	font-weight: 600;
+}
+.pas{
+	color: #C1EFFF;
+	font-size: 15px;
+}
+
